@@ -1,0 +1,8 @@
+{
+  "name": "Moonki Webapp",
+  "description": "Moonki Webapp",
+  "repository": "https://github.com/mauwize/moonki-webappp",
+  "logo": "http://static1.squarespace.com/static/5609627be4b004ab03b451b5/t/56383354e4b0924367e735ed/1462567516935/",
+  "keywords": ["node", "express"],
+  "image": "heroku/nodejs"
+}
