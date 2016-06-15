@@ -1,7 +1,7 @@
 // Bring Mongoose into the app 
 var mongoose = require('mongoose'); 
 
-var dbURI = 'mongodb://localhost:27017/tinyUrl'; 
+var dbURI = 'mongodb://localhost:27017/moonki'; 
 mongoose.connect(dbURI); 
 
 mongoose.connection.on('connected', function () {  
