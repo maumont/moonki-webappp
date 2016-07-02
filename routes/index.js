@@ -7,7 +7,8 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/health', function (req, res) {
-  res.send({ server: 'Moonki Webapp', status: 'true', vir: '0.1' });
+
+  res.send({ server: 'Moonki Webapp', status: 'true', vir: '0.1', ip: 'req.connection.remoteAddress' });
 });
 
 module.exports = router;
