@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Moonki Webapp' });
+  res.render('index', { title: 'Awesome Moonki Webapp' });
 });
 
 router.get('/health', function (req, res) {
